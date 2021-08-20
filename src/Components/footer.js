@@ -7,11 +7,11 @@ const Footer = () => (
     <>
   <div className="footer">
     <a href="https://github.com/adelalama" target="_blank" rel="noopener noreferrer">
-        <img alt="Github" className="footer-img" src={GithubImg} />
+        <img alt="Github" className="github-img" src={GithubImg} />
     </a> 
 
     <a href="" target="_blank" rel="noopener noreferrer">
-        <img alt="LinkedIn" className="footer-img" src={LinkedinImg} />
+        <img alt="LinkedIn" className="linkedin-img" src={LinkedinImg} />
     </a> 
 
   </div>
