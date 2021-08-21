@@ -3,7 +3,7 @@ import Navigation from './navigation';
 import About from './aboutMe';
 import Contact from './contact';
 import Resume from './resume';
-//import Projects from './projects'
+import Projects from './projects'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Portfolio() {
@@ -17,8 +17,8 @@ function Portfolio() {
       case 'About': 
       return (<About></About>)
 
-      //case 'Portfolio': 
-      //return (<Projects></Projects>)
+      case 'Portfolio': 
+      return (<Projects></Projects>)
 
       case 'Contact': 
       return (<Contact></Contact>)

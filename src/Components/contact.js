@@ -12,7 +12,6 @@ function Contact() {
 
         setFormState({...formState, [e.target.name]: e.target.value})
     }
-    // console.log(formState)
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -25,9 +24,6 @@ function Contact() {
         <section className="">
             <h1 className="contact-container">Contact</h1>
             <form id="contact-form" className="contact-form" onSubmit={handleSubmit}>
-            {/* // name input
-                // email input
-                // message text area */}
                 <div>
                     <label htmlFor="name">Name:</label>
                     </div>

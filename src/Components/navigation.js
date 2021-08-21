@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function Navigation(props) {
-  const tabs = ['About Me', 'Contact', 'Resume'];
+  const tabs = ['About Me', 'Portfolio', 'Contact', 'Resume'];
   return (
     <ul className="nav ">
       {tabs.map(tab => (

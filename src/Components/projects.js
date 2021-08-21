@@ -1,5 +1,5 @@
 import React, { useState} from "react";
-//import projects from '../projects.json';
+import projects from '../projects.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-/*function ProjectCard(props) {
+function ProjectCard(props) {
   return (
     <div className="card-container col-12">
         <div className="card">
@@ -58,5 +58,4 @@ function Projects() {
     </Wrapper>
   );
 }
-*/
-//export default Projects;
+export default Projects;
